@@ -15,9 +15,9 @@ export default function Home() {
           <div className='absolute flex justify-center items-center top-0 w-full h-full rounded-xl bg-cyan opacity-0 duration-300 group-hover:opacity-50 ' />
           <Image className='absolute group-hover:opacity-100 opacity-0 duration-300' src={'/images/icon-view.svg'} width={48} height={48} alt='icon-view' />
         </div>
-        
-        <h1 className='text-white hover:text-cyan duration-200 cursor-pointer text-xl my-4 font-semibold'>Equilibrium #3429</h1>
-        <p className='text-soft-blue mb-4'>Our Equilibirum collection promotes balance and calm.</p>
+
+        <h1 className='text-white hover:text-cyan duration-200 cursor-pointer text-lg my-6 font-semibold'>Equilibrium #3429</h1>
+        <p className='text-soft-blue mb-6'>Our Equilibirum collection promotes balance and calm.</p>
 
         <div className='flex justify-between border-b border-line my-2 pb-4'>
 
