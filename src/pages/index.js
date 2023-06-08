@@ -14,9 +14,8 @@ export default function Home() {
           <Image className='rounded-xl' src={'/images/image-equilibrium.jpg'} width={308} height={308} alt='nft-image' />
           <div className='absolute flex justify-center items-center top-0 w-full h-full rounded-xl bg-cyan opacity-0 duration-300 group-hover:opacity-50 ' />
           <Image className='absolute group-hover:opacity-100 opacity-0 duration-300' src={'/images/icon-view.svg'} width={48} height={48} alt='icon-view' />
-
-
         </div>
+        
         <h1 className='text-white hover:text-cyan duration-200 cursor-pointer text-xl my-4 font-semibold'>Equilibrium #3429</h1>
         <p className='text-soft-blue mb-4'>Our Equilibirum collection promotes balance and calm.</p>
 
@@ -33,7 +32,7 @@ export default function Home() {
           </div>
 
         </div>
-        <div className='flex gap-4 items-center py'-2'>
+        <div className='flex gap-4 items-center py-2'>
           <Image src={'/images/image-avatar.png'} width={33} height={33} alt='image-avatar' />
           <p className='text-soft-blue'> Creation of <span className='text-white hover:text-cyan duration-200 cursor-pointer'>Jules Wyvern</span></p>
         </div>
