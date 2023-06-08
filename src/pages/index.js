@@ -32,7 +32,7 @@ export default function Home() {
           </div>
 
         </div>
-        <div className='flex gap-4 items-center py-2'>
+        <div className='flex gap-4 items-center py-4'>
           <Image src={'/images/image-avatar.png'} width={33} height={33} alt='image-avatar' />
           <p className='text-soft-blue'> Creation of <span className='text-white hover:text-cyan duration-200 cursor-pointer'>Jules Wyvern</span></p>
         </div>
